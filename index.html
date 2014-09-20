@@ -114,8 +114,8 @@
          cells[ position( x, y ) ] = 0; //Math.round( Math.random() - 0.4 ); //cell is dead
       } );
 
-      //playfieldCanvas.addEventListener( 'click', handleMouseEvent );
-      //playfieldCanvas.addEventListener( 'mousemove', handleMouseEvent );
+      playfieldCanvas.addEventListener( 'click', handleMouseEvent );
+      playfieldCanvas.addEventListener( 'mousemove', handleMouseEvent );
       playfieldCanvas.addEventListener( 'touchmove', handleTouchEvent );
 
       $( 'startStopButton' ).addEventListener( 'click', toggleStartStop );
